@@ -15,6 +15,7 @@ def get_data():
 class TestLogin:
     # 初始  化
     def setup_class(self):
+
         # 获取PageLogin对象
         self.login = PageLogin()
         # 点击 弹窗
